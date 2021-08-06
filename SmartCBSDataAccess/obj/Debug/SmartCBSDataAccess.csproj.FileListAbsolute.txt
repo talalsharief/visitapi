@@ -1,0 +1,9 @@
+F:\Areeb\SmartCBS_API WorkSpace\SmartCBSDataAccess\bin\Debug\SmartCBSDataAccess.dll.config
+F:\Areeb\SmartCBS_API WorkSpace\SmartCBSDataAccess\bin\Debug\SmartCBSDataAccess.dll
+F:\Areeb\SmartCBS_API WorkSpace\SmartCBSDataAccess\bin\Debug\SmartCBSDataAccess.pdb
+F:\Areeb\SmartCBS_API WorkSpace\SmartCBSDataAccess\bin\Debug\SubSonic.dll
+F:\Areeb\SmartCBS_API WorkSpace\SmartCBSDataAccess\obj\Debug\SmartCBSDataAccess.csproj.CoreCompileInputs.cache
+F:\Areeb\SmartCBS_API WorkSpace\SmartCBSDataAccess\obj\Debug\SmartCBSDataAccess.csproj.CopyComplete
+F:\Areeb\SmartCBS_API WorkSpace\SmartCBSDataAccess\obj\Debug\SmartCBSDataAccess.dll
+F:\Areeb\SmartCBS_API WorkSpace\SmartCBSDataAccess\obj\Debug\SmartCBSDataAccess.pdb
+F:\Areeb\SmartCBS_API WorkSpace\SmartCBSDataAccess\obj\Debug\SmartCBSDataAccess.csprojAssemblyReference.cache
