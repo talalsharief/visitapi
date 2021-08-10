@@ -7,3 +7,9 @@ F:\Areeb\SmartCBS_API WorkSpace\SmartCBSDataAccess\obj\Debug\SmartCBSDataAccess.
 F:\Areeb\SmartCBS_API WorkSpace\SmartCBSDataAccess\obj\Debug\SmartCBSDataAccess.dll
 F:\Areeb\SmartCBS_API WorkSpace\SmartCBSDataAccess\obj\Debug\SmartCBSDataAccess.pdb
 F:\Areeb\SmartCBS_API WorkSpace\SmartCBSDataAccess\obj\Debug\SmartCBSDataAccess.csprojAssemblyReference.cache
+D:\Office Working\SMART-CBS-API\SmartCBSDataAccess\bin\Debug\SmartCBSDataAccess.dll.config
+D:\Office Working\SMART-CBS-API\SmartCBSDataAccess\bin\Debug\SmartCBSDataAccess.dll
+D:\Office Working\SMART-CBS-API\SmartCBSDataAccess\bin\Debug\SmartCBSDataAccess.pdb
+D:\Office Working\SMART-CBS-API\SmartCBSDataAccess\obj\Debug\SmartCBSDataAccess.csprojResolveAssemblyReference.cache
+D:\Office Working\SMART-CBS-API\SmartCBSDataAccess\obj\Debug\SmartCBSDataAccess.dll
+D:\Office Working\SMART-CBS-API\SmartCBSDataAccess\obj\Debug\SmartCBSDataAccess.pdb

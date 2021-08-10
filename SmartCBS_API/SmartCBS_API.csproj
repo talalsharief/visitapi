@@ -47,7 +47,7 @@
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="SubSonic">
-      <HintPath>..\..\Smart-CBS-git\SmartCBSDataAccess\bin\Debug\SubSonic.dll</HintPath>
+      <HintPath>bin\SubSonic.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

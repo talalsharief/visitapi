@@ -242,7 +242,7 @@ namespace SmartCBS_API.Controllers
                 TblSystemConfig ObjSystemConfig = new TblSystemConfig(TblSystemConfig.Columns.SystemConfigName, "AllowIndexing");
 
                 JSONDAta = JsonConvert.SerializeObject(ObjSystemConfig.SystemConfigID > 0 ? ObjSystemConfig.SystemConfigValue == "1" : false);
-                return new ResponseHelper(0, ObjSystemConfig.SystemConfigID > 0 ? ObjSystemConfig.SystemConfigValue == "1" : false, new ErrorDef());
+                return new ResponseHelper(1, ObjSystemConfig.SystemConfigID > 0 ? ObjSystemConfig.SystemConfigValue == "1" : false, new ErrorDef());
 
                 //if (ObjSystemConfig.SystemConfigID > 0)
                 //{

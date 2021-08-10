@@ -21,13 +21,13 @@ namespace SmartCBS_API.Controllers
     {
         //SyncMeterReading Method Start
         [Route("api/meterreading/syncmeterreading")]
-        [HttpGet]
-        public ResponseHelper SyncMeterReading([FromUri] clMeterReading data)
+        [HttpPost]
+        public ResponseHelper SyncMeterReading([FromBody] clMeterReading data)
         {
             string JSONDAta = "";
             string Activity = "";
 
-            Activity = ActivityHelper.SaveActivity(data.userid, data.id, "MeterReading", ActivityHelper.Activity.SyncMeterReading).ToString();
+            //Activity = ActivityHelper.SaveActivity(data.userid, data.id, "MeterReading", ActivityHelper.Activity.SyncMeterReading).ToString();
 
             try
             {
@@ -224,7 +224,7 @@ namespace SmartCBS_API.Controllers
             {
                 string JSONDevice = JsonConvert.SerializeObject(data.deviceinfo);
 
-                BaseHelper.SystemLogging(data.userid, "api/meterreading/syncmeterreading", JSONDAta, JSONDevice);
+                //BaseHelper.SystemLogging(data.userid, "api/meterreading/syncmeterreading", JSONDAta, JSONDevice);
             }
         }
         //SyncMeterReading Method End
