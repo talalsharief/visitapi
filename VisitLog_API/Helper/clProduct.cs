@@ -11,5 +11,6 @@ namespace SmartCBS_API.Helper
         public string productname { get; set; }
         public string isactive { get; set; }
         public int productid { get; set; }
+        public int userid { get; set; }
     }
 }

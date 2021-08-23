@@ -19,12 +19,12 @@ namespace SmartCBS_API.Controllers
         //Start Product
         [Route("api/product/products")]
         [HttpGet]
-        public ResponseHelper DemoProduct([FromUri] clProduct data)
+        public ResponseHelper ProductList([FromUri] clProduct data)
         {
             string JSONDAta = "";
             int ActivityID = 0;
 
-            ActivityID = ActivityHelper.SaveActivity(0, 0, "TblProduct", ActivityHelper.Activity.User);
+            ActivityID = ActivityHelper.SaveActivity(0, 0, "ProductList", ActivityHelper.Activity.User);
             try
             {
                 TblProductCollection objTblProdCol = new TblProductCollection()
@@ -36,24 +36,26 @@ namespace SmartCBS_API.Controllers
                     productname = x.ProductName,
                     productid = x.ProductID,
                     productactive = x.IsActive
+                    
+                    
                 });
 
                 if (objTblProdCol.Count > 0)
                 {
 
                     JSONDAta = JsonConvert.SerializeObject(result);
-                    return new ResponseHelper(1, result, new ErrorDef((int)EnumHelper.ErrorEnums.NoRecordFound, "Error", EnumHelper.ErrorEnums.NoRecordFound.ToString(), "Error"));
+                    return new ResponseHelper(1, result, new ErrorDef());
                 }
                 else
                 {
                     JSONDAta = JsonConvert.SerializeObject(result);
-                    return new ResponseHelper(0, new object(), new ErrorDef());
+                    return new ResponseHelper(0, new object(), new ErrorDef((int)EnumHelper.ErrorEnums.NoRecordFound, "Error", EnumHelper.ErrorEnums.NoRecordFound.ToString(), "Error"));
                 }
 
             }
             catch (Exception ex)
             {
-                BaseHelper.ExceptionLogging("DemoProduct", ex.Message, "DemoProduct", ex.Message, 0);
+                BaseHelper.ExceptionLogging("ProductList", ex.Message, "ProductList", ex.Message, 0);
                 return new ResponseHelper(0, new object(), new ErrorDef((int)EnumHelper.ErrorEnums.InvalidData, "Error", EnumHelper.ErrorEnums.Exception.ToString(), "This data is Incorrect"));
             }
             finally
