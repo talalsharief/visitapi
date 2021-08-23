@@ -31,8 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="SubSonic">
-      <HintPath>..\..\Edos\git\EDOSPresentation\bin\SubSonic.dll</HintPath>
+    <Reference Include="SubSonic, Version=2.1.1.0, Culture=neutral, PublicKeyToken=eadb47849839a332, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Setup\SubCommander\SubSonic.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -53,6 +54,8 @@
     <Compile Include="ListReportDetailController.cs" />
     <Compile Include="Privillage.cs" />
     <Compile Include="PrivillageController.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="ProductController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RolePrivillage.cs" />
     <Compile Include="RolePrivillageController.cs" />
@@ -75,6 +78,8 @@
     <Compile Include="TblExceptionController.cs" />
     <Compile Include="TblModule.cs" />
     <Compile Include="TblModuleController.cs" />
+    <Compile Include="TblProduct.cs" />
+    <Compile Include="TblProductController.cs" />
     <Compile Include="TblSystemLogging.cs" />
     <Compile Include="TblSystemLoggingController.cs" />
     <Compile Include="TblSystemParam.cs" />

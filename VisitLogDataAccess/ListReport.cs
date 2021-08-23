@@ -193,7 +193,7 @@ namespace VisitLogDataAccess
 		  
 		[XmlAttribute("TableName")]
 		[Bindable(true)]
-		public string TableName 
+		public new string TableName 
 		{
 			get { return GetColumnValue<string>(Columns.TableName); }
 			set { SetColumnValue(Columns.TableName, value); }

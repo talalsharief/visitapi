@@ -44,6 +44,8 @@ namespace VisitLogDataAccess
         
 		public static readonly string TblModule = @"tblModule";
         
+		public static readonly string TblProduct = @"tblProduct";
+        
 		public static readonly string TblSystemLogging = @"tblSystemLogging";
         
 		public static readonly string TblSystemParam = @"tblSystemParams";
@@ -122,6 +124,11 @@ namespace VisitLogDataAccess
 		public static TableSchema.Table TblModule
 		{
             get { return DataService.GetSchema("tblModule", "PrimaryProvider"); }
+		}
+        
+		public static TableSchema.Table TblProduct
+		{
+            get { return DataService.GetSchema("tblProduct", "PrimaryProvider"); }
 		}
         
 		public static TableSchema.Table TblSystemLogging

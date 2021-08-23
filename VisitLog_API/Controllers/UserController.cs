@@ -35,11 +35,12 @@ namespace VisitLog_API.Controllers
                 var result = objTblUserCol.Select(x => new
                 {
                     username = x.UserName,
+                    userid = x.UserLoginId
                 });
 
                 if (objTblUserCol.Count > 0)
-                {
-
+                {   
+                    
                     JSONDAta = JsonConvert.SerializeObject(result);
                     return new ResponseHelper(1, result, new ErrorDef((int)EnumHelper.ErrorEnums.NoRecordFound, "Error", EnumHelper.ErrorEnums.NoRecordFound.ToString(), "Error"));
                 }
