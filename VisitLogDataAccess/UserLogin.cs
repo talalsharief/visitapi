@@ -365,6 +365,10 @@ namespace VisitLogDataAccess
 		{
 			return new VisitLogDataAccess.TblActivityCollection().Where(TblActivity.Columns.UserID, UserLoginId).Load();
 		}
+		public VisitLogDataAccess.TblAppDatumCollection TblAppData()
+		{
+			return new VisitLogDataAccess.TblAppDatumCollection().Where(TblAppDatum.Columns.UserID, UserLoginId).Load();
+		}
 		public VisitLogDataAccess.TblExceptionCollection TblExceptionRecords()
 		{
 			return new VisitLogDataAccess.TblExceptionCollection().Where(TblException.Columns.CurrentUserID, UserLoginId).Load();

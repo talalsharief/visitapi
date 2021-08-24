@@ -174,6 +174,7 @@
     <Compile Include="BusinessHelpers\EnumHelper.cs" />
     <Compile Include="BusinessHelpers\ResponseHelper.cs" />
     <Compile Include="Common\DSmartUserSecurity.cs" />
+    <Compile Include="Controllers\AppDataController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\UserController.cs" />
@@ -181,6 +182,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helper\clAppData.cs" />
     <Compile Include="Helper\clDeviceInfo.cs" />
     <Compile Include="Helper\clProduct.cs" />
     <Compile Include="Helper\clUser.cs" />

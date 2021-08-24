@@ -30,6 +30,8 @@ namespace VisitLogDataAccess
         
 		public static readonly string TblActivity = @"tblActivity";
         
+		public static readonly string TblAppDatum = @"tblAppData";
+        
 		public static readonly string TblAssignPrivillage = @"TblAssignPrivillage";
         
 		public static readonly string TblBranch = @"TblBranch";
@@ -89,6 +91,11 @@ namespace VisitLogDataAccess
 		public static TableSchema.Table TblActivity
 		{
             get { return DataService.GetSchema("tblActivity", "PrimaryProvider"); }
+		}
+        
+		public static TableSchema.Table TblAppDatum
+		{
+            get { return DataService.GetSchema("tblAppData", "PrimaryProvider"); }
 		}
         
 		public static TableSchema.Table TblAssignPrivillage

@@ -64,6 +64,8 @@
     <Compile Include="SystemLoggingController.cs" />
     <Compile Include="TblActivity.cs" />
     <Compile Include="TblActivityController.cs" />
+    <Compile Include="TblAppDatum.cs" />
+    <Compile Include="TblAppDatumController.cs" />
     <Compile Include="TblAssignPrivillage.cs" />
     <Compile Include="TblAssignPrivillageController.cs" />
     <Compile Include="TblBranch.cs" />
